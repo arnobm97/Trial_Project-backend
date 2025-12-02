@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "api/index.js",
   "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,5 +19,7 @@
     "mongodb": "^6.18.0",
     "mongoose": "^8.17.1"
   },
-  "description": ""
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
